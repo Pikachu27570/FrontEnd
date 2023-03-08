@@ -1,0 +1,27 @@
+/*############# HEADER #################*/
+header {
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /*################### NAVIGATION ########################*/
+  nav {
+    background-color: rgb(252, 252, 252);
+  }
+
+  ul {
+    margin: 900;
+    padding: 100;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    list-style-type: none;
+  }
+  img {
+    width : 1000px;
+    height : 950px;
+    }
