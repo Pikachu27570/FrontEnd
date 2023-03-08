@@ -1,17 +1,31 @@
+
 /* container */
 .container {
 	display: flex; 
 	flex-direction:row;
     flex-flow:row wrap;
-    padding: 0;
-    margin: 0;
+    padding: 20px 20px 20px;
+    margin: 90;
     list-style: none;
     height: 90;
-    flex-wrap: nowrap;
-    justify-content:center;
-    align-items: center;
-
+    justify-content:left;
+    align-items: row;
+    
+padding: 1em 1%;
 }
+.menu {
+position: absolute;
+top: 1em;
+right: 1%;
+border: 1px solid #000000;
+padding: 1em;
+width: 20%;
+}
+html>body .menu {
+position: fixed;
+}
+
+
 /* header */
 h1 {
     border: 5px solid black;
@@ -27,6 +41,7 @@ width: 500px;
 
 /* nav */
 body {
+    justify-content: space-around;
  box-sizing: border-box;
     width: 500px;
     border-radius: 200px;
@@ -54,9 +69,11 @@ h3 {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     padding-bottom: 10px;
+    
 }
 /* h4 */
 h4 {
+    
     box-sizing: border-box;
     border: 5px solid rgb(244, 2, 2);
     text-align: center;
