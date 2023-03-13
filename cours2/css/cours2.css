@@ -1,0 +1,19 @@
+p, span{
+    font-size: 1em;
+}
+.chien{
+    background-color: lightblue;
+    width: 400px;
+    height: 100px;
+}
+.chien2{
+    background-color: lightgreen;
+}
+.chien3{
+    background-color: orange;
+    width: 400px;
+    height: 100px;
+}
+.chien4{
+    background-color: yellow;
+}
