@@ -1,0 +1,52 @@
+header{
+    background-color: white;width: -200px;
+    margin: 10px;
+    text-indent: 100px;
+
+}
+
+body{
+    background-image: url(https://m3.manubricole.com/44182-large_default/peinture-creme-de-couleur-gris-tendance-25-l-mat.jpg);}
+    body{
+    background-color: white;
+    margin: 50px;
+    margin-right: 500px;
+    margin-left: 100px;
+    padding: 5px;
+    text-align: left;
+}
+#contenu{
+    background-color: white;
+    margin: 20px;
+    margin-right: 10px;
+    text-align: left;
+    padding-top: 0px;
+}
+h2{
+    background-color: white;
+    text-align: left;
+}
+#sidebar{
+    color: gray;
+}
+p{
+    background-color: white;
+    margin: 50px;
+    margin-left: 50px;
+    text-align: left;
+}
+#Membres{
+    background-color: white;
+    margin-right: 20px;
+    
+}
+#chansons{
+    background-color: white;
+    margin: 10px;
+    margin-left: 50px;
+    text-align: left;
+}
+.artiste{
+    background-color: white;
+    text-align: left;
+}
