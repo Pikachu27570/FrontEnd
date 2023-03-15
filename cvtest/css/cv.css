@@ -1,13 +1,48 @@
+.liserer{
+    position: absolute;
+    background-color:rgb(239, 12, 92);
+margin-top: auto;
+height: 500PX;
+
+width:50PX;
+    
+}
+body{
+    background-image: url(https://elements-video-cover-images-0.imgix.net/files/0cbdd819-d1ba-4476-836b-c987ed4a9a29/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=cac2729e1534ab2338172ced5f68a53f);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    margin: 0px;
+    
+}
+.container{
+display: flex;
+
+
+}
+
+h1{
+    font-family: 'Rubik Iso', cursive;
+    margin-left: 10%;
+    
+    }
+
 img{
+    align-items: center;
 display: block;
 width: 5%;
-margin: left;
+margin: 10px;
+margin-left: 50px;
 border: 25px,
+
 }
-ul{
-    background-color: white;
+h2{
+    color: blueviolet;
+    text-align: left;
     margin: 10px;
     margin-left: 50px;
-    text-align: left;
-
+}
+ul{
+    margin: 10px;
+    margin-left: 50px;
 }
