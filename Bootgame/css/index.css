@@ -1,0 +1,64 @@
+.col-lg-8 {
+    box-sizing: content-box;
+    display: flex;
+    font-family: Verdana, sans-serif;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.485);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0%;
+    text-align: left;
+}
+.col{
+    display: flexbox;
+    max-width: 50rem;
+}
+.d-flex {
+
+    display: flex;
+    margin-right: -60rem;
+    margin-bottom: -7rem;
+    color: white;
+    text-align: center;
+
+}
+
+.button {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin-right: 20%;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    background-color: lightgray;
+    color: black;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 30%;
+    text-align: center;
+}
+
+.a {
+    color: white;
+    background-color: green;
+    margin-top: 0%;
+
+
+}
+
+.success {
+    background-color: green;
+    margin-top: 0%;
+    margin-bottom: 50%;
+}
+
+.form {
+
+    margin-bottom: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
