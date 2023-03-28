@@ -1,27 +1,28 @@
-
-body{
-background-image: url(https://images.squarespace-cdn.com/content/v1/5e284372a502537a6fc07767/1602147688282-A4FJ266XDZDP71R9HQW9/ACDC+banner-min.jpg?format=500w);
+body {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e284372a502537a6fc07767/1602147688282-A4FJ266XDZDP71R9HQW9/ACDC+banner-min.jpg?format=500w);
     background-size: cover;
     background-position: center;
 }
-.img-fluid{
+
+.img-fluid {
     margin-right: 50%;
     margin-left: 20%;
     margin-top: 1%;
 }
-@font-face{
+
+@font-face {
     font-family: 'hard_rockregular';
     src: url('/fonts/hard_rock-webfont.woff2') format('woff2'),
-         url('/fonts/hard_rock-webfont.woff') format('woff');
+        url('/fonts/hard_rock-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-.nav-link{
+.nav-link {
     font-family: 'hard_rockregular';
 }
 
-.row{
+.row {
     display: flex;
     margin-left: 40px;
     margin-right: 40px;
@@ -32,18 +33,76 @@ background-image: url(https://images.squarespace-cdn.com/content/v1/5e284372a502
     text-align: center;
 
 }
+
 @font-face {
-        font-family: 'rocknroll_typo_crazyregular';
-        src: url('/fonts/font2/thedark-webfont.woff2') format('woff2'),
-             url('/fonts/font2/thedark-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
-    .groupe{
-        margin-top: 2%;
+    font-family: 'rocknroll_typo_crazyregular';
+    src: url('/fonts/font2/thedark-webfont.woff2') format('woff2'),
+        url('/fonts/font2/thedark-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.groupe {
+    margin-top: 2%;
     font-family: 'rocknroll_typo_crazyregular';
     display: flex;
-    justify-content:center;
-   color: white;
-  
+    justify-content: center;
+    color: white;
+
+}
+
+@font-face {
+    font-family: 'the_darkregular';
+    src: url('/fonts/font2/thedark-webfont.woff2') format('woff2'),
+        url('/fonts/font2/thedark-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.btn {
+    font-family: 'the_darkregular';
+    font-family: 'rocknroll_typo_crazyregular';
+    background-color: red;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'the_darkregular';
+    font-family: 'rocknroll_typo_crazyregular';
+    font-size: xx-large;
+}
+
+table {
+    background-color: black;
+    text-align: justify;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 2px;
+    box-shadow: #050505;
+    color: #eb2f2f;
+}
+.form-label{
+    font-family: 'hard_rockregular';
+    border-radius: 5px;
+    margin-left:  30px;
+    color: #eb2f2f;
+
+}
+.form{
+margin-left: 50%;
+margin-right: 10%;
+font-family: 'hard_rockregular';
+}
+.mb3{
+    border-radius: 5px;
+    margin-left:  2em;
+    
+}
+.nomprenom{
+    margin-top: 2%;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-left: auto;
 }
