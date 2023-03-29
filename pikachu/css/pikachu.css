@@ -1,0 +1,11 @@
+.vidéo{
+    position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+    background-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTi-CDL8GKJdDqgXli_cS6vB__Q05N6fPc9hTdWAwjPU6Q&s);
+    background-position: center center;
+    background-size: contain;
+  }

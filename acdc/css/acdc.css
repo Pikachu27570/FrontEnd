@@ -12,8 +12,8 @@ body {
 
 @font-face {
     font-family: 'hard_rockregular';
-    src: url('/fonts/hard_rock-webfont.woff2') format('woff2'),
-        url('/fonts/hard_rock-webfont.woff') format('woff');
+    src: url('../fonts/hard_rock-webfont.woff2') format('woff2'),
+        url('../fonts/hard_rock-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -36,8 +36,8 @@ body {
 
 @font-face {
     font-family: 'rocknroll_typo_crazyregular';
-    src: url('/fonts/font2/thedark-webfont.woff2') format('woff2'),
-        url('/fonts/font2/thedark-webfont.woff') format('woff');
+    src: url('../fonts/font2/thedark-webfont.woff2') format('woff2'),
+        url('../fonts/font2/thedark-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -53,8 +53,8 @@ body {
 
 @font-face {
     font-family: 'the_darkregular';
-    src: url('/fonts/font2/thedark-webfont.woff2') format('woff2'),
-        url('/fonts/font2/thedark-webfont.woff') format('woff');
+    src: url('../fonts/font2/thedark-webfont.woff2') format('woff2'),
+        url('../fonts/font2/thedark-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -73,36 +73,46 @@ h2 {
     font-size: xx-large;
 }
 
-table {
+.container2 {
+
     background-color: black;
-    text-align: justify;
-    margin: 0 auto;
     width: 80%;
-    border-radius: 2px;
-    box-shadow: #050505;
+    margin-left: 2%;
+    margin-right: 2px;
     color: #eb2f2f;
+    padding-left: 15%;
+    padding-right: 5%;
+    padding: 10%;
+    padding-top: 2%;
+    margin-top: 2%;
+    text-align: center;
 }
-.form-label{
+
+.form-label {
     font-family: 'hard_rockregular';
     border-radius: 5px;
-    margin-left:  30px;
+    margin-left: 30px;
     color: #eb2f2f;
 
 }
-.form{
-margin-left: 50%;
-margin-right: 10%;
-font-family: 'hard_rockregular';
+
+.form {
+    margin-left: 50%;
+    margin-right: 10%;
+    font-family: 'hard_rockregular';
 }
-.mb3{
+
+.mb3 {
     border-radius: 5px;
-    margin-left:  2em;
-    
+    margin-left: 2em;
+    margin-right: auto;
 }
-.nomprenom{
-    margin-top: 2%;
+
+.container-fluid-1 {
     display: flex;
-    justify-content: left;
-    text-align: left;
-    margin-left: auto;
+    margin-top: 2%;
+    border-radius: 5px;
+    margin-left: -20%;
+    margin-right: 20%;
+
 }
