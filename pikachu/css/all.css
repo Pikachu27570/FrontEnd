@@ -1,0 +1,44 @@
+body{
+  background-image: url(../img/Saison_1.webp);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+h1{
+  display: flex;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right:  20%;
+  background-color: crimson;
+ border-radius: 13%;
+ font-family:'Times New Roman', Times, serif;
+}
+   
+
+   h2{
+    margin-top: 2%;
+    margin-left: 30%;
+    background-color: crimson;
+   border-radius: 13%;
+   font-family:'Times New Roman', Times, serif;
+   }
+ .Perso{
+  text-align: center;
+    margin-top: 2%;
+    width: -20%;
+    margin-left: 20%; }
+    
+    .Pikachu{
+      margin-top: 2%;
+      display: row;
+      text-align: justify;
+      margin-left: 5%;
+      margin-right: 50%;
+    }
+    .Bulbizarre{
+      margin-top: 0%;
+      display: row;
+      text-align: justify;
+      margin-left: 5%;
+      margin-right: 50%;
+    }

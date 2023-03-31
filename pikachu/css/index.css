@@ -5,12 +5,22 @@ body{
 
   }
   h1{
+    display: flex;
     margin-top: 10%;
-    margin-left: 10%;
-    margin-right:  10%;
+    margin-left: 20%;
+    margin-right:  20%;
     background-color: crimson;
    border-radius: 13%;
    font-family:'Times New Roman', Times, serif;
 
    
+  }
+  .univers{
+    display: flex;
+    margin-top: 5%;
+    background-color: blueviolet;
+    color: white;
+    text-align: justify;
+    margin-right: 20%;
+    margin-left: 20%;
   }
