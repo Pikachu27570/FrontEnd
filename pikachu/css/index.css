@@ -1,7 +1,10 @@
 .image{
+  display: flex;
   margin-top: 2%;
   margin-left: 20%;
-  opacity: 80%;
+  margin-right: 10%;
+  opacity: 90%;
+  
 
 }
 
@@ -9,7 +12,6 @@ body {
   background-image: url(../img/Saison_1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 20%;
 
 }
 
@@ -26,11 +28,11 @@ h1 {
 
 .univers {
   margin-top: 1%;
-  background-color: blueviolet;
-  opacity: 88%;
-  color: white;
+  background-color: black;
+  opacity: 80%;
+  color: chocolate;
   text-align: left;
-  margin-right: 20%;
+  margin-right: 38%;
   margin-left: 20%;
   display: grid;
 }

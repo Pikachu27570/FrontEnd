@@ -1,4 +1,5 @@
 body {
+  background-size: fixed;
   background-image: url(../img/Saison_1.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,33 +8,23 @@ body {
 
 h1 {
   margin-left: 20%;
+  margin-right: 40%;
   display: flex;
   background-color: crimson;
-  font-size: -50%;
-  width: 40%;
-  margin-right: 20%;
   font-family: 'pokemon_hollownormal';
-  background-size: cover;
 }
 
-
-h2 {
-  margin-top: 2%;
-  background-color: crimson;
-  border-radius: 13%;
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-  margin-right: 70%;
-  margin-inline: 30%;
+.card {
+  margin-right: 20%;
   margin-left: 20%;
 }
 
-.row {
-  box-sizing: border-box;
+#vertical-2 {
   margin-top: 2%;
-  color: white;
-  text-align: left;
-  margin-inline: 10%;
+  display: inline-block;
+  margin-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
 }
 
 @font-face {
