@@ -8,23 +8,26 @@ body {
 
 h1 {
   margin-left: 20%;
-  margin-right: 40%;
+  margin-right: 55%;
   display: flex;
   background-color: crimson;
   font-family: 'pokemon_hollownormal';
 }
 
 .card {
-  margin-right: 20%;
+  margin-right: 55%;
   margin-left: 20%;
 }
 
 #vertical-2 {
-  margin-top: 2%;
-  display: inline-block;
+}
+.row {
+  display: flex;
   margin-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 5%;
+  margin-right: 55%;
+  margin-top: 0px;
+  text-align: left;
+
 }
 
 @font-face {
