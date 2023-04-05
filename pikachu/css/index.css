@@ -1,44 +1,28 @@
-.image{
-  display: flex;
-  margin-top: 2%;
-  margin-left: 20%;
-  margin-right: 10%;
-  opacity: 90%;
-  
-
-}
-
 body {
+
   background-image: url(../img/Saison_1.webp);
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 
-h1 {
-  margin-left: 20%;
-  display: flex;
-  background-color: crimson;
-  font-family: 'pokemon_hollownormal';
-  font-size: -50%;
-  width: 100%;
-
-
-}
-
 .univers {
-  margin-top: 1%;
-  background-color: black;
-  opacity: 80%;
-  color: chocolate;
-  text-align: left;
-  margin-right: 38%;
-  margin-left: 20%;
-  display: grid;
+  opacity: 90%;
+  border-color: black;
+  margin-right: 2%;
+  margin-left: 7%;
 }
+
 @font-face {
-  font-family: 'pokemon_hollownormal';
-  src: url('../font/pokemon_hollow-webfont.woff2') format('woff2'),
-       url('../font/pokemon_hollow-webfont.woff') format('woff');
+  font-family: 'balonkuregular';
+  src: url('../font1/balonku/balonkuregular-la1w-webfont.woff2') format('woff2'),
+    url('../font1/balonku/balonkuregular-la1w-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: normal;}
+  font-style: normal;
+
+}
+
+.nav-link {
+  font-family: 'balonkuregular';
+  font-size: xx-large;
+}
