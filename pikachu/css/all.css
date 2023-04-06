@@ -1,6 +1,6 @@
 body {
-  background-size: fixed;
-  background-image: url(../img/Saison_1.webp);
+  background-attachment: local;
+  background-image: url(../img/Saison_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 

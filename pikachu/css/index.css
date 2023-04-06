@@ -1,8 +1,9 @@
 body {
 
-  background-image: url(../img/Saison_1.webp);
+  background-image: url(../img/Saison_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment:local;
 
 }
 
@@ -10,7 +11,7 @@ body {
   opacity: 90%;
   border-color: black;
   margin-right: 2%;
-  margin-left: 7%;
+  margin-left: 2%;
 }
 
 @font-face {
