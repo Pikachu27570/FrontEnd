@@ -1,0 +1,65 @@
+
+ page sommaire (index.html) CSS
+
+Dans le corps je lui est inséré une image de fond d'écran
+pour l'emsemble des pages html du projet.
+
+Je lui es attribuer un no-repeat pour ne pas que l'image
+ ce reproduise en plusieurs fois.
+
+Un background-size cover, pour couvrir l'intrégrale de la
+page avec ce fond d'écran.
+
+j'ai utilisé un sélecteurss de type class
+pour l'emsenble de la page qui s'intitule .univers
+ dedans je lui est indiqué:
+
+un margin-top de 2% ( pour ne pas que sa touche avec la nav bar).
+
+je lui est indiqué une opacité de 90% pour que l'on puisse voir
+un peu l'image en fond d'écran.
+
+je lui est ajouté :
+ 
+une bordure de couleur noir.
+un fond de couleur noir.
+une marge droite de 2%
+une marge gauche de 7% pour que le contenu soit bien mis en place.
+
+Page index.html html
+
+J'ai placer une nav bar pour faire la navigation entre les pages,
+pour que la navigation ce fasse entre les pages entre elles, ainsi
+que une barre de navigation avec les liens pour allez sur les différentes
+page du projet.
+
+pour chaque pages j'ai mis une image, est une description dans un paragraphe,
+des attribut dans un tableau (Nombres d'habitants, Villes, Pokemons.)
+
+ainsi que de l'audio sur la page sommaire.
+
+Village1, Village2, Villag3 CSS :
+
+le corps est le même que la page index.html.
+
+Pour les titre je leurs es mis une marge gauche de 1% ainsi qu'une marge droite de 1%
+un padding-bottom de 1%
+un background-color rouge
+une police d'écriture spécial Pokémon avec un texte aligné au centre est une opacité de 80%
+
+pour la class card
+
+je leurs es mis une opacité de 88%
+un border-color  noir
+une marge droite de 2% et une marge gauche de 1%
+un fond de couleur noir
+
+
+pour le tableau, j'ai indiquez:
+
+Un display flex
+une marge gauche de 20% et une marge droite de 50%
+un texte aligné à gauche
+et un background color noir.
+
+tout ces élément sont responsive et adapté à tout types. d'écrans.

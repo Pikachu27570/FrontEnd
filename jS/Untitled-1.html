@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>la portee</title>
+</head>
+<body>
+    <h2>c'est mon script</h2>
+    <script> var nomExterne = "Hein ";
+
+        function portee(nom) {
+        
+        prenom = "Terieur ";
+        
+        nomGlobale = "Halle ";
+        
+        console.log(window.nomGlobale + nom + prenom);
+        
+        console.log(nomGlobale + nomExterne + prenom);
+        
+        }
+        
+        portee("Ex ");
+        
+        console.log(prenom);// provoque une erreur</script>
+    
+</body>
+</html>
+
