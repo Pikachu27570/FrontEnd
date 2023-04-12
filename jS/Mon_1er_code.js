@@ -13,3 +13,4 @@ var Nombres = prompt("Combien avez-vous de frêres ?");
 console.log(Nombres);
 var Animaux = prompt("Quels animal ou animaux avez-vous chez vous ?");
 console.log(Animaux);
+
