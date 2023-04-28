@@ -76,14 +76,46 @@ else{
     console.log("Ce nombre est négatif");
 }
 */
-/*Ecrire un algorithme qui demande trois noms à l'utilisateur
- et l'informe ensuite s'ils sont rangé ou non par ordre alphabéthique */
-var nom = prompt("Veuillez entrez un premier nom svp");
-var nom2 = prompt("Veuillez entre un deuxième nom svp");
-var nom3 = prompt("Veuillez entrez un troisième nom svp");
+/* 3 Ecrire un algorithme qui demande trois noms à l'utilisateur
+ et l'informe ensuite s'ils sont rangé ou non par ordre alphabéthique
+var A = prompt("Veuillez entrez un premier nom svp");
+var B = prompt("Veuillez entre un deuxième nom svp");
+var C = prompt("Veuillez entrez un troisième nom svp");
 
-if (nom) {
-    console.log("Ces noms sont classé par ordre alphabétique!");
+if ( A < B && B < C) {
+    alert("Ces noms sont classé par ordre alphabétique!");
 } else {
-    console.log("Ces noms ne sont pas classé en ordre alphabétique!");
+    alert("Ces noms ne sont pas classé en ordre alphabétique!");
 }
+*/
+/*4- Ecrire un algorithme qui demande un nombre à l’utilisateur, 
+et l’informe ensuite si ce nombre est positif ou négatif (on inclut cette fois le traitement du cas où le nombre vaut zéro).
+
+var N = prompt("Entrez un nombre :");
+
+
+if (N < 0) {
+    alert("Ce nombre est négatif")
+} else if (N > 0) {
+    alert("Ce nombre est positif");
+} else {
+    console.log("Ce nombre est nul")
+}
+
+*/
+/*5- Ecrire un algorithme qui demande deux nombres à l’utilisateur et l’informe ensuite
+ si le produit est négatif ou positif (on inclut cette fois le traitement du cas où le
+     produit peut être nul). Attention toutefois, on ne doit pas calculer le produit !
+     var M = prompt("Entrez le premier nombres :");
+     var N = prompt("Entrez le deuxième nombre :");
+     
+     if (M == 0 || N == 0) {
+
+        alert("Le produit est null")
+    } else if ((M < 0 && N < 0) || (M > 0 && N > 0)) {
+
+        alert("Le produit est positif");
+    } else {
+        alert("Le produit est négatif")
+    }*/
+    
