@@ -77,7 +77,7 @@ else{
 }
 */
 /*Ecrire un algorithme qui demande trois noms à l'utilisateur
- et l'informe ensuite s'ils sont rangé ou non par ordre alphabéthique */
+ et l'informe ensuite s'ils sont rangé ou non par ordre alphabéthique
 var nom = prompt("Veuillez entrez un premier nom svp");
 var nom2 = prompt("Veuillez entre un deuxième nom svp");
 var nom3 = prompt("Veuillez entrez un troisième nom svp");
@@ -86,4 +86,45 @@ if (nom) {
     console.log("Ces noms sont classé par ordre alphabétique!");
 } else {
     console.log("Ces noms ne sont pas classé en ordre alphabétique!");
+}*/
+
+/*- les fonctions exercice 1 :- 
+var a = parseInt(prompt("Entrez un premier nombre : "));
+var b = parseInt(prompt("Entrez un deuxième nombre : "));
+var message;
+function cube(a,b,){
+    var resultat = a * b;
+    return resultat;
 }
+message = cube(a, b);
+console.log(message);
+document.write("Le cube de " + a +  " est égal à " + message + '<br>');
+
+function produit(x, y,) {
+    var resultat = x * y;
+    return resultat;
+
+}
+function afficheImg(_img) {
+    document.write('<img src="img/papillon.jpg">');
+}
+
+var x = parseInt(prompt("Entrez un premier nombre : "));
+var y = parseInt(prompt("Entrez un deuxième nombre : "));
+var message;
+
+
+message = produit(x, y);
+console.log(message);
+document.write("Le produit de " + x + " x " + y + " est égal à " + message + '<br>');
+afficheImg();*/
+
+/*les fonctions exercices 2: table de multiplication
+nombre = window.prompt("Entrer un chiffre");
+for (i = 0; i <= 7; i++) {
+    document.write(nombre+ " x " +i+ " = "+nombre*i+"<br>")
+console.log(nombre+ " x " +i+ " = "+nombre*i+"");
+} */
+/*Les fonctions exercice 3 : compter le nombre de lettres*/
+
+function String(phrase);
