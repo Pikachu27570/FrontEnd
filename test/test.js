@@ -129,7 +129,7 @@ console.log(nombre+ " x " +i+ " = "+nombre*i+"");
 let mot = prompt("Entrez un mot :");
 console.log("Le mot " + mot + " contient " + mot.length + " caractère(s)");*/
 
-/*Les fonctions exercice 4 : Menu*/
+/*Les fonctions exercice 4 : Menu
 
 let menu = prompt("1. multiplication table\n2. addition table\n3. quit");
 
@@ -149,8 +149,56 @@ while (menu != 3) {
     }
     menu = prompt("1. multiplication table\n2. addition table\n3. quit");
 }
-
-
+*/
+/* define the functions for options 1-3
+function exercise1() {
+    // implementation of exercise 1
+  }
+  
+  function exercise2() {
+    // implementation of exercise 2
+  }
+  
+  function exercise3() {
+    // implementation of exercise 3
+  }
+  
+  // define the function for option 4
+  function searchCharacter(str, char) {
+    // implementation of search for any character in a string
+    // returns true if char is found in str, false otherwise
+  }
+  
+  // display the menu and prompt for user input
+  const menu = `Menu:
+  1. Exercise 1
+  2. Exercise 2
+  3. Exercise 3
+  4. Search for a character in a string`;
+  
+  const choice = parseInt(prompt(menu));
+  
+  // execute the selected option
+  switch(choice) {
+    case 1:
+      exercise1();
+      break;
+    case 2:
+      exercise2();
+      break;
+    case 3:
+      exercise3();
+      break;
+    case 4:
+      const str = prompt("Enter a string:");
+      const char = prompt("Enter a character to search for:");
+      const result = searchCharacter(str, char);
+      console.log(The character '${char}' ${result ? "was found" : "was not found"} in the string '${str}');
+      break;
+    default:
+      console.log("Invalid choice.");
+  }
+*/
 
 /*Les fonctions exercice 5 : String Token
 Concevez la fonction strtok qui prend 3
@@ -160,3 +208,7 @@ chaîne de caractères : str1 est composée
 strtok sert à extraire le nième mot de str1.
 Exemple :*/
 
+function strtok(str1, str2, n) {
+    const words = str1.split(str2);
+    return words[n-1];
+  }
