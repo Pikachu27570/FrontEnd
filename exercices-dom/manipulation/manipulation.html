@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script src="manipulation.js"></script>
+
+    <form>
+        <label for="semaine">Semaine</label>
+        <input type="radio" id="semaine" name="options" value="Semaine"><br>
+        <label for="week-end">Week-end</label>
+        <input type="radio" id="week-end" name="options" value="Week-end"><br>
+        <br>
+        <label for="choix" style="background-color:aliceblue;">Choix :</label><br>
+        <input type="text" id="choix" name="choix">
+    </form>
+    <script>  function copyText() {
+        var radios = document.getElementsByName("options");
+        var choix = document.getElementById("choix");
+
+        for (var i =0; i <radio.length; i++) {
+            if (radios[i].checked){
+                choix.value = radios[i].value;
+                break;
+            }
+        }
+    }
+    </script>
+</body>
+</html>
