@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Page avec un Post-it</title>
+    <style>
+      #postit {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 200px;
+        height: 150px;
+        background-color: yellow;
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Page avec un Post-it</h1>
+    <button id="affiche">Afficher</button> <button id="cache"></button>
+   
+    <p>Merci de bien vouloir me survoler</p>
+    <div id="postit"></div>
+    <script>
+      var postit = document.getElementById("postit");
+      var affiche = document.getElementById("affiche");
+
+      affiche.addEventListener("click", function() {
+        postit.style.visibility = "visible";
+        postit.innerHTML = "Vous avez cliqué sur le bouton 'afficher'!";
+      });
+
+      var survol = document.querySelector("p");
+      survol.addEventListener("mouseover", function() {
+        postit.style.visibility = "visible";
+        postit.innerHTML = "C'est gentil de me survoler...";
+      });
+      survol.addEventListener("mouseout", function() {
+        postit.style.visibility = "hidden";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+{
+    "Name": "<strong><b>chez Pika et Co</b></strong>",
+    "Slogan": "<strong><b>Les pizza qui électrise votre palet</b></strong>",
+    "Pizzas": [
+        {
+            "Nom": "La Foudroyante",
+            "Image": "https://www.adial-france.com/wp-content/uploads/2021/06/LA-BOX-PIZZA-distributeur-pizzas-artisanales-Eric-Bartholey.004.jpg",
+            "Prix": "11,90 euros",
+            "ingrédients": [
+                "Fromage",
+                "Oignon",
+                "Olive",
+                "Lardon"
+            ]
+        },
+        {
+            "Nom": "L'Exotique",
+            "Image": "https://previews.123rf.com/images/tan4ikk/tan4ikk1504/tan4ikk150400036/38428590-pizza-exotique-avec-ananas-et-de-p%C3%AAche-avec-des-ingr%C3%A9dients-alimentaires-sur-une-table-en-bois.jpg",
+            "Prix": "12,90 euros",
+            "ingrédients": [
+                "Ananas",
+                "Crevette",
+                "Olive",
+                "Anchois",
+                "Pepperoni",
+                "Bassilic"
+            ]
+        },
+        {
+            "Nom": "La Bête",
+            "Image": "https://st2.depositphotos.com/1177973/6201/i/950/depositphotos_62019119-stock-photo-tasty-pizza-with-sausage-vegetables.jpg",
+            "Prix": "17,90 euros",
+            "ingrédients": [
+                "Fromage",
+                "Salamis",
+                "Olives",
+                "Piments",
+                "Tomates",
+                "Oignon"
+            ]
+        },
+        {
+            "Nom": "La Branchée",
+            "Image": "https://st2.depositphotos.com/1177973/6201/i/950/depositphotos_62019119-stock-photo-tasty-pizza-with-sausage-vegetables.jpg",
+            "Prix": "16,90 euros",
+            "ingrédients": [
+                "Brocolis",
+                "Champignon",
+                "Mozzarella",
+                "Oignon"
+            ]
+        },
+        {
+            "Nom": "La Blue",
+            "Image": "https://www.1001pizzas.ca/images/pizzas/Pizza_Bleu.jpg",
+            "Prix": "15,90 euros",
+            "ingrédients": [
+                "Fromage bleu",
+                "Parmesan",
+                "Oignon",
+                "Tomates"
+            ]
+        },
+        {
+            "Nom": "La bête",
+            "Image": "https://assets.afcdn.com/recipe/20190618/94043_w1024h768c1cx1560cy2080.jpg",
+            "Prix": "25,90 euros",
+            "ingrédients": [
+                "Feta",
+                "Jambon",
+                "Poivron"
+            ]
+        }
+    ]
+}
