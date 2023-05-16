@@ -9,7 +9,11 @@ var booksList = new Array();
 var authorsList = new Array();
 var listCategories = new Array();
 
-window.addEventListener("load", jsonOnLoad());
+window.addEventListener("load", jsonOnLoad);
+
+
+document.getElementById("listAuthors").addEventListener("change", ChargeByAuthor);
+document.getElementById("listCategories").addEventListener("change", ChargeByCategorie);
 
 function jsonOnLoad() {
     fetch("books.json")
@@ -30,7 +34,7 @@ function createList(_data) {
         for (var y = 0; y < book.authors.length; y++) {
             var author = book.authors[y];
 
-            if (authorsList.indexOf(author) == -1) {
+            if (!authorsList.includes(author)) {
                 authorsList.push(author);
             }
         }
@@ -38,7 +42,7 @@ function createList(_data) {
         for (var y = 0; y < book.categories.length; y++) {
             var categorie = book.categories[y];
 
-            if (listCategories.indexOf(categorie) == -1) {
+            if (!listCategories.includes(categorie)) {
                 listCategories.push(categorie);
             }
         }
@@ -46,7 +50,6 @@ function createList(_data) {
     //tri alphabétique des listes
     booksList.sort();
     authorsList.sort();
-    booksList.sort();
     listCategories.sort();
 
     for (var x = 0; x < authorsList.length; x++) {
@@ -60,6 +63,7 @@ function createList(_data) {
         option.value = listCategories[x];
         option.innerText = listCategories[x];
         document.getElementById("listCategories").appendChild(option);
+
     }
     showBooks(booksList);
 }
@@ -67,8 +71,8 @@ function createList(_data) {
 function showBooks(_booksList) {
     document.getElementById("booksList").innerHTML = "";
     for (var y = 0; y < _booksList.length; y++) {
-        var BookCard = document.createElement("div");
-        BookCard.setAttribute("class", "card mb-4");
+        var bookCard = document.createElement("div");
+        bookCard.setAttribute("class", "card mb-4");
 
         if (
             _booksList[y].thumbnailUrl == undefined ||
@@ -81,7 +85,7 @@ function showBooks(_booksList) {
         if (_booksList[y].title.length > 20) {
             titre = _booksList[y].title.substring(0, 20) + " (...)";
         } else {
-            titre = _booksList[y].tittle;
+            titre = _booksList[y].title;
         }
 
         var description;
@@ -100,8 +104,8 @@ function showBooks(_booksList) {
                 description = _booksList[y].shortDescription;
             }
             else {
-                descriptionshort = _booksList[y].shortDescription;
                 description = _booksList[y].shortDescription;
+                descriptionshort = _booksList[y].shortDescription;
             }
         }
 
@@ -114,23 +118,64 @@ function showBooks(_booksList) {
         } catch (error) {
             datePubli = "Pas de date de publication";
         }
-        BookCard.innerHTML = '<img src="' +
+        bookCard.innerHTML = '<img src="' +
             _booksList[y].thumbnailUrl +
             '"/>' +
             '<h1 class="bookTitle"><span class="infobulle" title="' +
-            _booksList[y].tittle +
+            _booksList[y].title +
             '">' +
             titre +
             "</span></h1>" +
             '<h4>' + datePubli +
             '</h4>';
-        if (description !="") {
-            BookCard.innerHTML +=
+        if (description != "") {
+            bookCard.innerHTML +=
                 '<h4><span class="infobulle" title="' +
-                _booksList[y].shortDescription +
+                description +
                 '">' +
-                description + "</span></h4>";
+                descriptionshort + "</span></h4>";
         }
-        document.getElementById("booksList").appendChild(BookCard);
+        document.getElementById("booksList").appendChild(bookCard);
     }
+}
+function ChargeByAuthor() {
+    var e = document.getElementById("listAuthors");
+    var strAuthors = e.value; // Pour ChargeByAuthor
+
+    var booksByAuthorsList = new Array();
+    if (strAuthors == "") {
+        showBooks(booksList);
+    } else {
+        for (var x = 0; x < booksList.length; x++) {
+            var bookByAuthor = booksList[x];
+            if (bookByAuthor.authors.indexOf(strAuthors) != -1) {
+                booksByAuthorsList.push(bookByAuthor);
+
+            }
+        }
+    }
+    booksByAuthorsList.sort();
+    showBooks(booksByAuthorsList);
+
+}
+
+function ChargeByCategorie() {
+    var e = document.getElementById("listCategories");
+    var strCategories = e.value; // Pour ChargeByCategorie
+
+
+
+    var booksByCategoriesList = new Array();
+    if (strCategories == "") {
+        showBooks(booksList);
+    } else {
+        for (var x = 0; x < booksList.length; x++) {
+            var bookByCategories = booksList[x];
+            if (bookByCategories.categories.indexOf(strCategories) != -1) {
+                booksByCategoriesList.push(bookByCategories);
+            }
+        }
+    }
+    booksByCategoriesList.sort();
+    showBooks(booksByCategoriesList);
 }
