@@ -1,21 +1,21 @@
 var options = {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
+    weekday:"long",
+    year:"numeric",
+    month:"long",
+    day:"numeric",
 };
 
 var booksList = new Array();
 var authorsList = new Array();
 var listCategories = new Array();
 
-window.addEventListener("load", jsonOnLoad);
+window.addEventListener("load", jsonOnLoad ());
 
 
 document.getElementById("listAuthors").addEventListener("change", ChargeByAuthor);
-document.getElementById("listCategories").addEventListener("change", ChargeByCategorie);
+document.getElementById("listCategories").addEventListener("change", ChargeByCategory);
 
-function jsonOnLoad() {
+function jsonOnLoad () {
     fetch("books.json")
         .then((response) => {
             return response.json();
@@ -32,7 +32,7 @@ function createList(_data) {
 
         //on crée la listes des auteurs
         for (var y = 0; y < book.authors.length; y++) {
-            var author = book.authors[y];
+            var author= book.authors[y];
 
             if (!authorsList.includes(author)) {
                 authorsList.push(author);
@@ -54,14 +54,14 @@ function createList(_data) {
 
     for (var x = 0; x < authorsList.length; x++) {
         var option = document.createElement("option");
-        option.value = authorsList[x];
-        option.innerText = authorsList[x];
+        option.value=authorsList[x];
+        option.innerText=authorsList[x];
         document.getElementById("listAuthors").appendChild(option);
     }
     for (var x = 0; x < listCategories.length; x++) {
-        var option = document.createElement("option")
-        option.value = listCategories[x];
-        option.innerText = listCategories[x];
+        var option = document.createElement("option");
+        option.value=listCategories[x];
+        option.innerText=listCategories[x];
         document.getElementById("listCategories").appendChild(option);
 
     }
@@ -72,7 +72,7 @@ function showBooks(_booksList) {
     document.getElementById("booksList").innerHTML = "";
     for (var y = 0; y < _booksList.length; y++) {
         var bookCard = document.createElement("div");
-        bookCard.setAttribute("class", "card mb-4");
+        bookCard.setAttribute("class","card mb-4");
 
         if (
             _booksList[y].thumbnailUrl == undefined ||
@@ -143,7 +143,7 @@ function ChargeByAuthor() {
     var strAuthors = e.value; // Pour ChargeByAuthor
 
     var booksByAuthorsList = new Array();
-    if (strAuthors == "") {
+    if (strAuthors =="") {
         showBooks(booksList);
     } else {
         for (var x = 0; x < booksList.length; x++) {
@@ -159,7 +159,7 @@ function ChargeByAuthor() {
 
 }
 
-function ChargeByCategorie() {
+function ChargeByCategory() {
     var e = document.getElementById("listCategories");
     var strCategories = e.value; // Pour ChargeByCategorie
 
