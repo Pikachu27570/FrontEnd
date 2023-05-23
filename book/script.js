@@ -140,15 +140,15 @@ function showBooks(_booksList) {
 }
 function ChargeByAuthor() {
     var e = document.getElementById("listAuthors");
-    var strAuthors = e.value; // Pour ChargeByAuthor
+    var strAuthors = e.options[e.selectedIndex].value; // Pour ChargeByAuthor
 
-    var booksByAuthorsList = new Array();
+    var booksByAuthorsList = [];
     if (strAuthors == "") {
         showBooks(booksList);
     } else {
         for (var x = 0; x < booksList.length; x++) {
             var bookByAuthor = booksList[x];
-            if (bookByAuthor.authors.indexOf(strAuthors) != -1) {
+            if (bookByAuthor.authors.includes(strAuthors)) {
                 booksByAuthorsList.push(bookByAuthor);
 
             }
@@ -161,12 +161,12 @@ function ChargeByAuthor() {
 
 function ChargeByCategorie() {
     var e = document.getElementById("listCategories");
-    var strCategories = e.value; // Pour ChargeByCategorie
+    var strCategories = e.options[e.selectedIndex].value; // Pour ChargeByCategorie
 
 
 
     var booksByCategoriesList = new Array();
-    if (strCategories == "") {
+    if (strCategories === "") {
         showBooks(booksList);
     } else {
         for (var x = 0; x < booksList.length; x++) {

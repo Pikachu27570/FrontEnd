@@ -1,11 +1,10 @@
-function ChargeInfoJSON() {
-    fetch("pizzas.json")
+
+    fetch(pizzas.json)
       .then(res => res.json())
       .then(data => {
         console.log(data);
         CreateDiv(data);
       });
-  }
   
   function CreateDiv(_data) {
     var preview = document.getElementsByClassName("preview")[0];

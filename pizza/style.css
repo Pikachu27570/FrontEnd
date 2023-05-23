@@ -63,12 +63,31 @@
     width: 100%;
     text-align: center;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px 0 0;
   }
   
   .preview {
     position: relative;
     width: 100%;
+  }
+
+  img{
+    max-width:300px;
+    max-height:300px;
+  }
+
+  #Slogan {
+    text-align:center;
+  }
+
+  #NomPizza {
+    text-align:center;
+  }
+
+  .contenu {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   
