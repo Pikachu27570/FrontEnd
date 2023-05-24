@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulaire de contact</title>
+  <script>
+    function validateForm() {
+      var societe = document.forms["contactForm"]["societe"].value;
+      var personne = document.forms["contactForm"]["personne"].value;
+      var codePostal = document.forms["contactForm"]["codePostal"].value;
+      var ville = document.forms["contactForm"]["ville"].value;
+      var email = document.forms["contactForm"]["email"].value;
+      var environnement = document.forms["contactForm"]["environnement"].value;
+
+      if (societe.length < 1) {
+        alert("Veuillez saisir le nom de la société.");
+        return false;
+      }
+
+      if (personne.length < 1) {
+        alert("Veuillez saisir le nom de la personne à contacter.");
+        return false;
+      }
+
+      if (!/^\d{5}$/.test(codePostal)) {
+        alert("Veuillez saisir un code postal valide (5 caractères numériques).");
+        return false;
+      }
+
+      if (ville.length < 1) {
+        alert("Veuillez saisir le nom de la ville.");
+        return false;
+      }
+
+      if (email.indexOf("@") === -1) {
+        alert("Veuillez saisir une adresse e-mail valide.");
+        return false;
+      }
+
+      if (environnement === "Choisissez") {
+        environnement = "";
+      }
+
+      document.forms["contactForm"]["environnementTexte"].value = environnement;
+      if (!/^[\w.%+-]+@[\w.-]+\.[A-Za-z]{2,}$/.test(email)) {
+  alert("Veuillez saisir une adresse e-mail valide.");
+  return false;
+}
+
+    }
+  </script>
+</head>
+<body>
+  <h1>Formulaire de contact</h1>
+  <form name="contactForm" action="traitement.php" method="post" onsubmit="return validateForm()">
+    <label for="societe">Société:</label>
+    <input type="text" id="societe" name="societe" required>
+
+    <br>
+
+    <label for="personne">Personne à contacter:</label>
+    <input type="text" id="personne" name="personne" required>
+
+    <br>
+
+    <label for="codePostal">Code postal:</label>
+    <input type="text" id="codePostal" name="codePostal" pattern="\d{5}" required>
+    <small>(5 chiffres)</small>
+
+    <br>
+
+    <label for="ville">Ville:</label>
+    <input type="text" id="ville" name="ville" required>
+
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <br>
+
+    <label for="environnement">Environnement technique:</label>
+    <select id="environnement" name="environnement">
+      <option selected disabled>Choisissez</option>
+      <option value="Technique 1">Technique 1</option>
+      <option value="Technique 2">Technique 2</option>
+      <option value="Technique 3">Technique 3</option>
+    </select>
+
+    <br>
+
+    <label for="environnementTexte">Informations supplémentaires:</label>
+    <textarea id="environnementTexte" name="environnementTexte"></textarea>
+
+    <br>
+
+    <input type="submit" value="Envoyer">
+  </form>
+</body>
+</html>
+``
