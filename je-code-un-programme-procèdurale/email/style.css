@@ -1,0 +1,28 @@
+body {
+    margin-top: 15%;
+    background-image: url(https://design-my-web.be/wp-content/uploads/2017/02/email-marketing-1.jpg);
+    background-size: cover;
+    background-repeat:repeat;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    /* Styles à appliquer lorsque la largeur de l'écran est de 768 pixels ou moins */
+    /* Par exemple, ajuster la mise en page pour les smartphones */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles à appliquer lorsque la largeur de l'écran est entre 769 et 1024 pixels */
+    /* Par exemple, ajuster la mise en page pour les tablettes */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Styles à appliquer lorsque la largeur de l'écran est de 1025 pixels ou plus */
+    /* Par exemple, ajuster la mise en page pour les ordinateurs de bureau */
+}
+
+.container {
+    background-color: beige;
+    color: black;
+}

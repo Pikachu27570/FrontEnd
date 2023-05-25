@@ -1,0 +1,29 @@
+
+body {
+    margin-top: 15%;
+    background-image: url(https://cdn.pixabay.com/animation/2023/01/01/10/25/10-25-06-482_512.gif);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    /* Styles à appliquer lorsque la largeur de l'écran est de 768 pixels ou moins */
+    /* Par exemple, ajuster la mise en page pour les smartphones */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles à appliquer lorsque la largeur de l'écran est entre 769 et 1024 pixels */
+    /* Par exemple, ajuster la mise en page pour les tablettes */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Styles à appliquer lorsque la largeur de l'écran est de 1025 pixels ou plus */
+    /* Par exemple, ajuster la mise en page pour les ordinateurs de bureau */
+}
+
+.container {
+    background-color: beige;
+    color: black;
+}
