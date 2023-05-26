@@ -1,0 +1,32 @@
+body {
+    margin-top: 15%;
+    margin-left: 10%;
+    background-image: url(https://agenceideo.com/wp-content/uploads/2022/02/Images-Newsletter-10.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    /* Styles à appliquer lorsque la largeur de l'écran est de 768 pixels ou moins */
+    /* Par exemple, ajuster la mise en page pour les smartphones */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles à appliquer lorsque la largeur de l'écran est entre 769 et 1024 pixels */
+    /* Par exemple, ajuster la mise en page pour les tablettes */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Styles à appliquer lorsque la largeur de l'écran est de 1025 pixels ou plus */
+    /* Par exemple, ajuster la mise en page pour les ordinateurs de bureau */
+}
+
+.container {
+    background-color: beige;
+    color: black;
+}
+label{
+    display: block;
+}
