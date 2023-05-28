@@ -1,7 +1,6 @@
 body {
-    margin-top: 8%;
-    margin-left: 10%;
-    background-image: url(https://i.ytimg.com/vi/7q3TNkZwTes/maxresdefault.jpg);
+    margin-top: 15%;
+    background-image: url(https://www.generation-souvenirs.com/21121-large_default/jeu-de-societe-master-mind-le-cerveau.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -27,6 +26,11 @@ body {
     background-color: beige;
     color: black;
 }
-label{
-    display: block;
-}
+.color-circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+  }
