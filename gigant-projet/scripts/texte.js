@@ -31,4 +31,4 @@ function aerer() {
     // Récupérer tous les éléments de classe "annote"
     const annotations = document.getElementsByClassName("annote");
   
-  
+  }
