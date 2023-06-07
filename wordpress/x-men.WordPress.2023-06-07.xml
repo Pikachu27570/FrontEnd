@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.2.2" created="2023-06-07 09:48" -->
+	<!-- generator="WordPress/6.2.2" created="2023-06-07 14:34" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>x-men</title>
 	<link>http://localhost:8080/wordpress</link>
 	<description></description>
-	<pubDate>Wed, 07 Jun 2023 09:48:08 +0000</pubDate>
+	<pubDate>Wed, 07 Jun 2023 14:34:40 +0000</pubDate>
 	<language>fr-FR</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost:8080/wordpress</wp:base_site_url>
@@ -39,14 +39,20 @@
 
 		<wp:category>
 		<wp:term_id>1</wp:term_id>
-		<wp:category_nicename><![CDATA[non-classe]]></wp:category_nicename>
+		<wp:category_nicename><![CDATA[accueil]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
-		<wp:cat_name><![CDATA[Catégorie]]></wp:cat_name>
+		<wp:cat_name><![CDATA[Accueil]]></wp:cat_name>
 	</wp:category>
 		<wp:category>
-		<wp:term_id>12</wp:term_id>
-		<wp:category_nicename><![CDATA[perso]]></wp:category_nicename>
-		<wp:category_parent><![CDATA[non-classe]]></wp:category_parent>
+		<wp:term_id>15</wp:term_id>
+		<wp:category_nicename><![CDATA[histoire]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Histoire]]></wp:cat_name>
+	</wp:category>
+		<wp:category>
+		<wp:term_id>17</wp:term_id>
+		<wp:category_nicename><![CDATA[personnages]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[Personnages]]></wp:cat_name>
 	</wp:category>
 			<wp:tag>
@@ -60,21 +66,28 @@
 		<wp:tag_name><![CDATA[Personnages]]></wp:tag_name>
 	</wp:tag>
 			<wp:term>
-		<wp:term_id>6</wp:term_id>
-		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_id>1</wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[accueil]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Accueil]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>1</wp:term_id>
-		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[non-classe]]></wp:term_slug>
+		<wp:term_id>8</wp:term_id>
+		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[accueil-2]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
-		<wp:term_name><![CDATA[Catégorie]]></wp:term_name>
+		<wp:term_name><![CDATA[Accueil (2)]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>8</wp:term_id>
+		<wp:term_id>15</wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[histoire]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Histoire]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>16</wp:term_id>
 		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[histoire]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -88,10 +101,17 @@
 		<wp:term_name><![CDATA[Histoire]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>12</wp:term_id>
+		<wp:term_id>17</wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
-		<wp:term_slug><![CDATA[perso]]></wp:term_slug>
-		<wp:term_parent><![CDATA[non-classe]]></wp:term_parent>
+		<wp:term_slug><![CDATA[personnages]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Personnages]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>18</wp:term_id>
+		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[personnages]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Personnages]]></wp:term_name>
 	</wp:term>
 		<wp:term>
@@ -108,9 +128,11 @@
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[twentytwentythree]]></wp:term_name>
 	</wp:term>
-			<wp:term><wp:term_id>6</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[accueil]]></wp:term_slug><wp:term_name><![CDATA[Accueil]]></wp:term_name>
+			<wp:term><wp:term_id>8</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[accueil-2]]></wp:term_slug><wp:term_name><![CDATA[Accueil (2)]]></wp:term_name>
 </wp:term>
-	<wp:term><wp:term_id>8</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[histoire]]></wp:term_slug><wp:term_name><![CDATA[Histoire]]></wp:term_name>
+	<wp:term><wp:term_id>16</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[histoire]]></wp:term_slug><wp:term_name><![CDATA[Histoire]]></wp:term_name>
+</wp:term>
+	<wp:term><wp:term_id>18</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[personnages]]></wp:term_slug><wp:term_name><![CDATA[Personnages]]></wp:term_name>
 </wp:term>
 
 	<generator>https://wordpress.org/?v=6.2.2</generator>
@@ -876,7 +898,7 @@ https://youtu.be/sAkL2-vh2Sk
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="non-classe"><![CDATA[Catégorie]]></category>
+										<category domain="category" nicename="accueil"><![CDATA[Accueil]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_oembed_370b76de9c0cb20cf1a2726b64b4c5dd]]></wp:meta_key>
 		<wp:meta_value><![CDATA[<iframe title="X Men Opening Theme (High Quality)" width="680" height="510" src="https://www.youtube.com/embed/sAkL2-vh2Sk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></wp:meta_value>
@@ -1031,7 +1053,7 @@ Les avatars des personnes qui commentent arrivent depuis <a href="https://fr.gra
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="non-classe"><![CDATA[Catégorie]]></category>
+										<category domain="category" nicename="accueil"><![CDATA[Accueil]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -1049,31 +1071,6 @@ Les avatars des personnes qui commentent arrivent depuis <a href="https://fr.gra
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
-					<item>
-		<title><![CDATA[Custom Styles]]></title>
-		<link>http://localhost:8080/wordpress/2023/06/05/wp-global-styles-twentytwentythree/</link>
-		<pubDate>Mon, 05 Jun 2023 10:53:44 +0000</pubDate>
-		<dc:creator><![CDATA[pikachu27]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8080/wordpress/2023/06/05/wp-global-styles-twentytwentythree/</guid>
-		<description></description>
-		<content:encoded><![CDATA[{"version": 2, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>5</wp:post_id>
-		<wp:post_date><![CDATA[2023-06-05 12:53:44]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-06-05 10:53:44]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-06-05 12:53:44]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-06-05 10:53:44]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[wp-global-styles-twentytwentythree]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="wp_theme" nicename="twentytwentythree"><![CDATA[twentytwentythree]]></category>
-						</item>
 					<item>
 		<title><![CDATA[x-men]]></title>
 		<link>http://localhost:8080/wordpress/audioplayer/xmen/</link>
@@ -1222,8 +1219,8 @@ Les avatars des personnes qui commentent arrivent depuis <a href="https://fr.gra
 		<wp:post_id>36</wp:post_id>
 		<wp:post_date><![CDATA[2023-06-06 09:27:11]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2023-06-06 07:27:11]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-06-07 11:45:42]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-06-07 09:45:42]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2023-06-07 13:52:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-07 11:52:23]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[bienvenue-dans-la-serie-animee-des-x-men-de-1992]]></wp:post_name>
@@ -1233,7 +1230,7 @@ Les avatars des personnes qui commentent arrivent depuis <a href="https://fr.gra
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="non-classe"><![CDATA[Catégorie]]></category>
+										<category domain="category" nicename="accueil"><![CDATA[Accueil]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_oembed_5f8465909f37618203c6f25625e964fa]]></wp:meta_key>
 		<wp:meta_value><![CDATA[<iframe title="X-Men (1992-1997): Générique de début (version 01)" width="680" height="510" src="https://www.youtube.com/embed/5gNIQX97WcY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></wp:meta_value>
@@ -1253,6 +1250,10 @@ Les avatars des personnes qui commentent arrivent depuis <a href="https://fr.gra
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_oembed_time_d0b93bcf279eb4015260fbe6d503ddd2]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1686057903]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:comment>
 			<wp:comment_id>2</wp:comment_id>
@@ -1356,7 +1357,7 @@ Les avatars des personnes qui commentent arrivent depuis <a href="https://fr.gra
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="non-classe"><![CDATA[Catégorie]]></category>
+										<category domain="category" nicename="accueil"><![CDATA[Accueil]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
 		<wp:meta_value><![CDATA[draft]]></wp:meta_value>
@@ -1438,31 +1439,31 @@ Les avatars des personnes qui commentent arrivent depuis <a href="https://fr.gra
 							</item>
 					<item>
 		<title><![CDATA[]]></title>
-		<link>http://localhost:8080/wordpress/2023/06/07/107/</link>
-		<pubDate>Wed, 07 Jun 2023 09:34:06 +0000</pubDate>
+		<link>http://localhost:8080/wordpress/2023/06/07/116/</link>
+		<pubDate>Wed, 07 Jun 2023 11:07:12 +0000</pubDate>
 		<dc:creator><![CDATA[pikachu27]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=107</guid>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/2023/06/07/116/</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>107</wp:post_id>
-		<wp:post_date><![CDATA[2023-06-07 11:34:27]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2023-06-07 09:34:06]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2023-06-07 11:34:27]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2023-06-07 09:34:27]]></wp:post_modified_gmt>
+		<wp:post_id>116</wp:post_id>
+		<wp:post_date><![CDATA[2023-06-07 15:43:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-06-07 11:07:12]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-06-07 15:43:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-07 13:43:22]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[107]]></wp:post_name>
+		<wp:post_name><![CDATA[116]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>1</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="histoire"><![CDATA[Histoire]]></category>
+										<category domain="nav_menu" nicename="accueil-2"><![CDATA[Accueil (2)]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
@@ -1470,11 +1471,11 @@ Les avatars des personnes qui commentent arrivent depuis <a href="https://fr.gra
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[36]]></wp:meta_value>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post]]></wp:meta_value>
+		<wp:meta_value><![CDATA[category]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
@@ -1491,6 +1492,543 @@ Les avatars des personnes qui commentent arrivent depuis <a href="https://fr.gra
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Histoire]]></title>
+		<link>http://localhost:8080/wordpress/2023/06/07/histoire/</link>
+		<pubDate>Wed, 07 Jun 2023 11:20:59 +0000</pubDate>
+		<dc:creator><![CDATA[pikachu27]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/2023/06/07/histoire/</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>125</wp:post_id>
+		<wp:post_date><![CDATA[2023-06-07 15:43:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-06-07 11:20:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-06-07 15:43:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-07 13:43:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[histoire]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="accueil-2"><![CDATA[Accueil (2)]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[x-men]]></title>
+		<link>http://localhost:8080/wordpress/?attachment_id=127#main</link>
+		<pubDate>Wed, 07 Jun 2023 11:26:08 +0000</pubDate>
+		<dc:creator><![CDATA[pikachu27]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/wp-content/uploads/2023/06/x-men.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>127</wp:post_id>
+		<wp:post_date><![CDATA[2023-06-07 13:26:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-06-07 11:26:08]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-06-07 13:26:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-07 11:26:08]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[x-men]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>123</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost:8080/wordpress/wp-content/uploads/2023/06/x-men.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2023/06/x-men.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:640;s:6:"height";i:333;s:4:"file";s:17:"2023/06/x-men.jpg";s:8:"filesize";i:86451;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[x-men]]></title>
+		<link>http://localhost:8080/wordpress/x-men-2/</link>
+		<pubDate>Wed, 07 Jun 2023 11:40:21 +0000</pubDate>
+		<dc:creator><![CDATA[pikachu27]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/wp-content/uploads/2023/06/x-men-1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>128</wp:post_id>
+		<wp:post_date><![CDATA[2023-06-07 13:40:21]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-06-07 11:40:21]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-06-07 13:40:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-07 11:40:21]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[x-men-2]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost:8080/wordpress/wp-content/uploads/2023/06/x-men-1.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2023/06/x-men-1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:640;s:6:"height";i:333;s:4:"file";s:19:"2023/06/x-men-1.jpg";s:8:"filesize";i:86451;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_is_custom_background]]></wp:meta_key>
+		<wp:meta_value><![CDATA[astralis-lite]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost:8080/wordpress/2023/06/07/133/</link>
+		<pubDate>Wed, 07 Jun 2023 13:41:29 +0000</pubDate>
+		<dc:creator><![CDATA[pikachu27]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=133</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>133</wp:post_id>
+		<wp:post_date><![CDATA[2023-06-07 15:43:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-06-07 13:41:29]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-06-07 15:43:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-07 13:43:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[133]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="accueil-2"><![CDATA[Accueil (2)]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[17]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[<h2 style="background-color:blue; color red">Personnages</h2>]]></title>
+		<link>http://localhost:8080/wordpress/personnages/</link>
+		<pubDate>Wed, 07 Jun 2023 13:48:57 +0000</pubDate>
+		<dc:creator><![CDATA[pikachu27]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/?page_id=136</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p style="background-color: orange; color: blue;"><strong>Je vous présente quelques personnage emblématique de cet univers de l'année 92.</strong></p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>On commence avec :</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns" style="background-color: black;">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:list -->
+<ul>
+<!-- wp:list-item -->
+<li><strong>Gambit</strong></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:image {"id":73,"width":248,"height":345,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8080/wordpress/wp-content/uploads/2023/06/images-1-1.jpg" alt="" class="wp-image-73" width="248" height="345"/></figure>
+<!-- /wp:image -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:list -->
+<ul>
+<!-- wp:list-item -->
+<li><strong>Malicia</strong></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:image {"id":78,"width":230,"height":346,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8080/wordpress/wp-content/uploads/2023/06/telechargement-5.jpg" alt="" class="wp-image-78" width="230" height="346"/></figure>
+<!-- /wp:image -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:list -->
+<ul>
+<!-- wp:list-item -->
+<li><strong>Diablo</strong></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:image {"id":80,"width":183,"height":343,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8080/wordpress/wp-content/uploads/2023/06/telechargement-2.jpg" alt="" class="wp-image-80" width="183" height="343"/></figure>
+<!-- /wp:image -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns" style="background-color: black;">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:list -->
+<ul>
+<!-- wp:list-item -->
+<li><strong>Wolverine</strong></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:image {"id":97,"width":258,"height":111,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8080/wordpress/wp-content/uploads/2023/06/wolverine-2.jpg" alt="" class="wp-image-97" width="258" height="111"/></figure>
+<!-- /wp:image -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:list -->
+<ul>
+<!-- wp:list-item -->
+<li><strong>Tornade</strong></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:image {"id":98,"width":254,"height":142,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8080/wordpress/wp-content/uploads/2023/06/telechargement-3.jpg" alt="" class="wp-image-98" width="254" height="142"/></figure>
+<!-- /wp:image -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:list -->
+<ul>
+<!-- wp:list-item -->
+<li><strong>Cyclope</strong></li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:image {"id":99,"width":254,"height":129,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8080/wordpress/wp-content/uploads/2023/06/images.jpg" alt="" class="wp-image-99" width="254" height="129"/></figure>
+<!-- /wp:image -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+
+<p></p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>136</wp:post_id>
+		<wp:post_date><![CDATA[2023-06-07 15:48:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-06-07 13:48:57]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-06-07 15:48:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-07 13:48:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[personnages]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[astralis-lite]]></title>
+		<link>http://localhost:8080/wordpress/2023/06/07/astralis-lite/</link>
+		<pubDate>Wed, 07 Jun 2023 13:54:45 +0000</pubDate>
+		<dc:creator><![CDATA[pikachu27]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/2023/06/07/astralis-lite/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{
+	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEVyD8i3-NwixxCkgWi7r6M2_zHSp_yqpPOA&usqp=CAU)
+	
+}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>139</wp:post_id>
+		<wp:post_date><![CDATA[2023-06-07 15:54:45]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-06-07 13:54:45]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-06-07 15:54:45]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-07 13:54:45]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[astralis-lite]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[custom_css]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://localhost:8080/wordpress/2023/06/07/142/</link>
+		<pubDate>Wed, 07 Jun 2023 13:56:01 +0000</pubDate>
+		<dc:creator><![CDATA[pikachu27]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/2023/06/07/142/</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>142</wp:post_id>
+		<wp:post_date><![CDATA[2023-06-07 15:56:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-06-07 13:56:01]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-06-07 15:56:01]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-07 13:56:01]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[142]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="personnages"><![CDATA[Personnages]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[136]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[<h2 style="background-color: yellow; color: black;">Histoire</h2>]]></title>
+		<link>http://localhost:8080/wordpress/histoire/</link>
+		<pubDate>Wed, 07 Jun 2023 14:02:42 +0000</pubDate>
+		<dc:creator><![CDATA[pikachu27]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/?page_id=143</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p style=" background-color: black; color green;">Les mutants sont rejetés par la société et doivent ainsi vivre dans la clandestinité. Le professeur Charles Xavier, également mutant, décide alors de créer une école pour mutants, où ils pourront mener une « vie » normale tout en développant et maitrisant leurs pouvoirs. Charles Xavier se heurte cependant à la population et à des groupes extrémistes, mais également à d'autres mutants qui veulent combattre les humains</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>143</wp:post_id>
+		<wp:post_date><![CDATA[2023-06-07 16:02:42]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-06-07 14:02:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-06-07 16:02:42]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-07 14:02:42]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[histoire]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Élément de menu]]></title>
+		<link>http://localhost:8080/wordpress/2023/06/07/element-de-menu/</link>
+		<pubDate>Wed, 07 Jun 2023 14:04:09 +0000</pubDate>
+		<dc:creator><![CDATA[pikachu27]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=145</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>145</wp:post_id>
+		<wp:post_date><![CDATA[2023-06-07 16:04:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-06-07 14:04:09]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-06-07 16:04:09]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-07 14:04:09]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[element-de-menu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="histoire"><![CDATA[Histoire]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[145]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://localhost:8080/wordpress/histoire/]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Custom Styles]]></title>
+		<link>http://localhost:8080/wordpress/2023/06/05/wp-global-styles-twentytwentythree/</link>
+		<pubDate>Mon, 05 Jun 2023 10:53:44 +0000</pubDate>
+		<dc:creator><![CDATA[pikachu27]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/2023/06/05/wp-global-styles-twentytwentythree/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"version": 2, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5</wp:post_id>
+		<wp:post_date><![CDATA[2023-06-05 12:53:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-06-05 10:53:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-06-05 12:53:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-05 10:53:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wp-global-styles-twentytwentythree]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="twentytwentythree"><![CDATA[twentytwentythree]]></category>
+						</item>
+					<item>
+		<title><![CDATA[<h2 style="background-color: blue;">Histoire</h2>]]></title>
+		<link>http://localhost:8080/wordpress/?p=123</link>
+		<pubDate>Wed, 07 Jun 2023 11:19:47 +0000</pubDate>
+		<dc:creator><![CDATA[pikachu27]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=123</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p style=" background-color: black; color green;">Les mutants sont rejetés par la société et doivent ainsi vivre dans la clandestinité. Le professeur Charles Xavier, également mutant, décide alors de créer une école pour mutants, où ils pourront mener une « vie » normale tout en développant et maitrisant leurs pouvoirs. Charles Xavier se heurte cependant à la population et à des groupes extrémistes, mais également à d'autres mutants qui veulent combattre les humains</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>123</wp:post_id>
+		<wp:post_date><![CDATA[2023-06-07 13:19:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2023-06-07 11:19:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2023-06-07 16:01:01]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2023-06-07 14:01:01]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[histoire__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="histoire"><![CDATA[Histoire]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1686146461]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[histoire]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 				</channel>
